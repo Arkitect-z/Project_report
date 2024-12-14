@@ -1,0 +1,34 @@
+# PyTorch
+--extra-index-url https://download.pytorch.org/whl/cu126
+torch==2.4.0+cu126
+torchvision
+numpy==1.23.1
+pytorch-lightning
+smplx==0.1.28
+pyrender==0.1.45
+opencv-python
+yacs
+scikit-image
+einops
+timm
+dill
+chumpy
+pandas
+
+# for tokenhmr training
+rich
+hydra-core
+hydra-submitit-launcher
+hydra-colorlog
+pyrootutils
+webdataset
+
+# additional pkgs
+transformers
+flatten_dict
+
+# for tokenization training
+git+https://github.com/nghorbani/body_visualizer
+
+# for detectron2
+setuptools==65.0.0
